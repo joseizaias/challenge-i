@@ -3,7 +3,6 @@ import { AuthGoogleProvider } from "./contexts/authGoogle";
 
 import { Home } from './pages/Home'
 import { Login } from "./pages/Login";
-import { Navegators } from './pages/Navegators'
 
 export function AppRoutes() {
 
@@ -15,7 +14,6 @@ export function AppRoutes() {
                 <Routes>
                     <Route path="/" element={<Login />} />
                     <Route path="/home" element={<Home />} />
-                    <Route path="/navegators" element={<Navegators />} />
                 </Routes>
             </AuthGoogleProvider>
         </BrowserRouter>
