@@ -5,7 +5,6 @@ import { AppRoutes } from './Routes';
 function App() {
 
   return (
-    //rotas envelopadas em um componente
     <AppRoutes />
   )
 }
